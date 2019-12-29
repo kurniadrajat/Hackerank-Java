@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package hackerank;
+import java.util.*;
+import java.security.*;
+/**
+ *
+ * @author ASUS
+ */
+public class StdinStdout2Hackerank {
+    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in); 
+        int i=sc.nextInt(); 
+        double d = sc.nextDouble(); 
+        sc.nextLine(); 
+        String s = sc.nextLine();
+        
+    
+    //char c=input.next().charAt(0);
+    
+    
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+    
+    
+}
